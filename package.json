@@ -1,0 +1,14 @@
+{
+  "name": "podda-md-session-gen",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "whatsapp-web.js": "^1.23.0",
+    "axios": "^1.6.2",
+    "puppeteer": "^21.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
