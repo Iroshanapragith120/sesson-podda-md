@@ -1,14 +1,12 @@
 {
-  "name": "podda-md-session-gen",
-  "version": "1.0.0",
+  "name": "podda-md-session",
+  "version": "2.2.0",
   "main": "server.js",
   "dependencies": {
     "express": "^4.18.2",
-    "whatsapp-web.js": "^1.23.0",
-    "axios": "^1.6.2",
-    "puppeteer": "^21.0.0"
-  },
-  "scripts": {
-    "start": "node server.js"
+    "whatsapp-web.js": "1.23.0",
+    "puppeteer": "21.5.0",
+    "qrcode": "^1.5.3",
+    "axios": "^1.6.2"
   }
 }
